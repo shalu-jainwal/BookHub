@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:padding="15dp"
+        android:text="This BookHub App is a user friendly application for all the book lovers out there. Here one can see the details of the book and even add their favourite books to favourites by just simply clicking the favourites option given below on the book details screen or can just remove from favourites. Sorting option is also given at the top of Dashboard which sorts books in an alphabetical order. Navigation Drawer makes it easy to navigate through different screens present in an application."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
